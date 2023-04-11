@@ -11,7 +11,7 @@ public class WebDriverSetup {
 
     public void setUp() {
         // Set up the ChromeDriver instance
-        System.setProperty("webdriver.chrome.driver", "/Users/patriciaandreica/Desktop/chromedriver");
+        System.setProperty("webdriver.chrome.driver", ".\\src\\test\\java\\utils\\chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
