@@ -1,15 +1,12 @@
 package Testcases;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utils.WebDriverSetup;
 
-public class AskQuestionTest {
+public class ProductDetailTest {
     WebDriver driver;
     WebDriverSetup webDriverSetup;
 
@@ -20,8 +17,9 @@ public class AskQuestionTest {
         driver = webDriverSetup.getDriver();
     }
 
+    // Are product details there
     @Test
-    public void askQuestion() {
+    public void productDetail() {
 
     }
 

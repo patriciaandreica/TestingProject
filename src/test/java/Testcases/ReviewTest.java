@@ -9,13 +9,6 @@ public class ReviewTest {
     WebDriver driver;
     WebDriverSetup webDriverSetup;
 
-    @BeforeClass
-    public void setUp() {
-        webDriverSetup = new WebDriverSetup();
-        webDriverSetup.setUp();
-        driver = webDriverSetup.getDriver();
-    }
-
     // click on a product
 
     // can submit a review

@@ -6,18 +6,16 @@
             <class name="Testcases.LogInTest">
                 <methods>
                     <include name="setUp"/>
-                    <include name="checkName"/>
-                    <include name="method1"/>
-                    <include name="tearDown"/>
+                    <include name="logIn"/>
                 </methods>
             </class>
             <class name="Testcases.ShoppingCartTest">
-            </class>
-            <class name="Testcases.ReviewTest">
+                <methods>
+                    <include name="addToCart"/>
+                    <include name="tearDown"/>
+                </methods>
             </class>
             <class name="Testcases.ProductDetailTest">
-            </class>
-            <class name="utils.WebDriverSetup">
             </class>
         </classes>
     </test>
