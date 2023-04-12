@@ -1,24 +1,29 @@
 package Testcases;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import utils.WebDriverSetup;
 
-public class ProductDetailTest {
+public class AskQuestionTest {
     WebDriver driver;
     WebDriverSetup webDriverSetup;
 
     @BeforeClass
-    public void setUp() {
+    public void setUp() throws InterruptedException {
         webDriverSetup = new WebDriverSetup();
         webDriverSetup.setUp();
         driver = webDriverSetup.getDriver();
     }
 
-    // search for a product
+    @Test
+    public void askQuestion() {
 
-    // product name, price, description, images are there
+    }
 
 
     @AfterClass
