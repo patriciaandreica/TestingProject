@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/patriciaandreica/Desktop/Java_Maven/src/test/java/Testcases">
-        <classes>
-            <class name="Testcases.LogInTest">
-                <methods>
-                    <include name="setUp"/>
-                    <include name="logIn"/>
-                </methods>
-            </class>
-            <class name="Testcases.ShoppingCartTest">
-                <methods>
-                    <include name="addToCart"/>
-                    <include name="tearDown"/>
-                </methods>
-            </class>
-            <class name="Testcases.ProductDetailTest">
-            </class>
+<suite thread-count="8" parallel="classes" name="Suite">
+    <test thread-count="8" parallel="classes" name="Test">
+   <classes>
+            <class name="Testcases.LogInTest"/>
+            <class name="Testcases.ShoppingCartTest"/>
+            <class name="Testcases.ProductDetailTest"/>
+            <class name="Testcases.CompareListTest"/>
+            <class name="Testcases.ReviewTest"/>
         </classes>
     </test>
 </suite>
