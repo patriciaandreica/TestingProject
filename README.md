@@ -13,4 +13,4 @@ Being able to compare items on a retail website is necessary to see differences 
 The last test in our suite was checking if an item can be added to a shopping cart. This is vital for users of retail websites because it enables them to check out and purchase items. To test this, we began by searching for an item and then selecting the first one. We then chose a size and color for the item and clicked “add to cart”. If the cart updated and reflected that 1 item was added to the cart, this test case passed.
 
 # Workflow Diagram:
-![alt text](https://github.com/Hexseral/CNT4104_Group_Proj/blob/master/Wireframe%20V2.png)
+![alt text](https://github.com/patriciaandreica/TestingProject/blob/main/img/user_Diagram_2.png)
