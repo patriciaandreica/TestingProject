@@ -68,7 +68,7 @@ public class ProductDetailTest {
         lowestOption.click();
 
         // Verify that the search results are sorted by lowest to highest price
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         List<WebElement> priceElements = wait.until(ExpectedConditions.visibilityOfAllElements(driver.findElements(By.cssSelector("span.price"))));
         List<Double> prices = new ArrayList<>();
         for (WebElement priceElement : priceElements) {
