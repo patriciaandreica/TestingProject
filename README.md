@@ -16,11 +16,11 @@ The last test in our suite was checking if an item can be added to a shopping ca
 ![alt text](https://github.com/patriciaandreica/TestingProject/blob/main/img/user_Diagram_2.png)
 
 # Tools Used
-· Java programming language.
-· Selenium WebDriver Library for Java.
-· TestNG Java Automation Testing Framework.
-· JetBrains IntelliJ IDE.
-· Google Chrome web browser for running the automation.
+- Java programming language.
+- Selenium WebDriver Library for Java.
+- TestNG Java Automation Testing Framework.
+- JetBrains IntelliJ IDE.
+- Google Chrome web browser for running the automation.
 
 # Motivation
 As avid users of retail websites, we felt that by running tests for a retail website ourselves we could ensure that its functionality was correct and proper for other users. Our testing allowed us to verify that the main functionality that a regular user would expect to be present was working without flaw. We suspect that our testing will not make much of a difference for the end system as the tests we conducted all passed and all functionality was working as expected. If any difference was made, it is that the Luma Apparel website will have more confidence that their website is free from bugs in the areas that matter the most to customers.
